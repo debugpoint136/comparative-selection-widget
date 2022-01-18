@@ -17,6 +17,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19tohg38',
+                  source: 'hg19',
                   comparison: 'hg19tohg38',
                   value: 338,
                   label: 'Query Human hg19 hg38 blastz',
@@ -30,6 +31,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19tomm9',
+                  source: 'hg19',
                   comparison: 'hg19tomm9',
                   value: 938,
                   label: 'Query mouse mm9 to hg19 blastz',
@@ -38,6 +40,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/hg19/weaver/hg19_mm9_axt.gz'
                 }, {
                   name: 'hg19tomm10',
+                  source: 'hg19',
                   comparison: 'hg19tomm10',
                   value: 338,
                   label: 'Query mouse mm10 to hg19 blastz',
@@ -51,6 +54,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19torn4',
+                  source: 'hg19',
                   comparison: 'hg19torn4',
                   value: 1338,
                   label: 'Query rat rn4 to hg19 blastz',
@@ -59,6 +63,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/hg19/weaver/hg19_rn4_axt.gz'
                 }, {
                   name: 'hg19torn6',
+                  source: 'hg19',
                   comparison: 'hg19torn6',
                   value: 338,
                   label: 'Query rat rn6 to hg19 blastz',
@@ -76,6 +81,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19torheMac3',
+                  source: 'hg19',
                   comparison: 'hg19torheMac3',
                   value: 338,
                   label: 'Query rhesus macaque rheMac3 to hg19 blastz',
@@ -89,6 +95,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19todanRer7',
+                  source: 'hg19',
                   comparison: 'hg19todanRer7',
                   value: 338,
                   label: 'Query zebrafish danRer7 to hg19 blastz',
@@ -97,6 +104,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/hg19/weaver/hg19_danRer7_axt.gz'
                 }, {
                   name: 'hg19todanRer10',
+                  source: 'hg19',
                   comparison: 'hg19todanRer10',
                   value: 338,
                   label: 'Query zebrafish danRer10 to hg19 blastz',
@@ -114,6 +122,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19tocalJac3',
+                  source: 'hg19',
                   comparison: 'hg19tocalJac3',
                   value: 338,
                   label: 'Query marmoset calJac3 to hg19 blastz',
@@ -131,6 +140,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19togorGor3',
+                  source: 'hg19',
                   comparison: 'hg19togorGor3',
                   value: 338,
                   label: 'Query gorilla gorgor3 to hg19 blastz',
@@ -148,6 +158,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19topanTro4',
+                  source: 'hg19',
                   comparison: 'hg19topanTro4',
                   value: 338,
                   label: 'Query chimp panTro4 to hg19 blastz',
@@ -160,6 +171,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'hg19topanTro5',
+                  source: 'hg19',
                   comparison: 'hg19topanTro5',
                   value: 338,
                   label: 'Query chimp panTro5 to hg19 blastz',
@@ -172,6 +184,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'hg19topanTro6',
+                  source: 'hg19',
                   comparison: 'hg19topanTro6',
                   value: 338,
                   label: 'Query chimp panTro6 to hg19 blastz',
@@ -189,6 +202,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg19topapAnu2',
+                  source: 'hg19',
                   comparison: 'hg19topapAnu2',
                   value: 338,
                   label: 'Query baboon papAnu2 to hg19 blastz',
@@ -211,6 +225,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38tohg19',
+                  source: 'hg38',
                   comparison: 'hg38tohg19',
                   value: 338,
                   label: 'Query Human hg38 to hg19 blastz',
@@ -224,6 +239,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38tomm10',
+                  source: 'hg38',
                   comparison: 'hg38tomm10',
                   value: 338,
                   label: 'Query mouse mm10 to hg38 blastz',
@@ -232,6 +248,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/hg38/weaver/hg38_mm10_axt.gz'
                 }, {
                   name: 'hg38tomm39',
+                  source: 'hg38',
                   comparison: 'hg38tomm39',
                   value: 338,
                   label: 'Query mouse mm39 to hg38 blastz',
@@ -249,6 +266,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38topanTro5',
+                  source: 'hg38',
                   comparison: 'hg38topanTro5',
                   value: 338,
                   label: 'Query chimpanzee panTro5 to hg38 blastz',
@@ -261,6 +279,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'hg38topanTro6',
+                  source: 'hg38',
                   comparison: 'hg38topanTro6',
                   value: 338,
                   label: 'Query chimpanzee panTro6 to hg38 blastz',
@@ -273,6 +292,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'hg38topanTro4',
+                  source: 'hg38',
                   comparison: 'hg38topanTro4',
                   value: 338,
                   label: 'Query chimp panTro4 to hg38 blastz',
@@ -290,6 +310,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38torheMac3',
+                  source: 'hg38',
                   comparison: 'hg38torheMac3',
                   value: 338,
                   label: 'Query rhesus Macaque rheMac3 to hg38 blastz',
@@ -298,6 +319,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/hg38/weaver/hg38_rheMac3_axt.gz'
                 }, {
                   name: 'hg38torheMac8',
+                  source: 'hg38',
                   comparison: 'hg38torheMac8',
                   value: 338,
                   label: 'Query rhesus rheMac8 to hg38 blastz',
@@ -315,6 +337,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38topapAnu2',
+                  source: 'hg38',
                   comparison: 'hg38topapAnu2',
                   value: 338,
                   label: 'Query baboon papAnu2 to hg38 blastz',
@@ -332,6 +355,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38tobosTau8',
+                  source: 'hg38',
                   comparison: 'hg38tobosTau8',
                   value: 338,
                   label: 'Query cow bosTau8 to hg38 blastz',
@@ -349,6 +373,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38tocalJac3',
+                  source: 'hg38',
                   comparison: 'hg38tocalJac3',
                   value: 338,
                   label: 'Query marmoset calJac3 to hg38 blastz',
@@ -366,6 +391,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38togalGal6',
+                  source: 'hg38',
                   comparison: 'hg38togalGal6',
                   value: 338,
                   label: 'Query chicken galGal6 to hg38 blastz',
@@ -383,6 +409,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38togorGor4',
+                  source: 'hg38',
                   comparison: 'hg38togorGor4',
                   value: 338,
                   label: 'Query gorilla gorGor4 to hg38 blastz',
@@ -400,6 +427,7 @@ export const treeData = {
               children: [
                 {
                   name: 'hg38torn6',
+                  source: 'hg38',
                   comparison: 'hg38torn6',
                   value: 338,
                   label: 'Query rat rn6 to hg38 blastz',
@@ -426,6 +454,7 @@ export const treeData = {
           children: [
             {
               name: 'bosTau8tomm10',
+              source: 'bosTau8',
               comparison: 'bosTau8tomm10',
               value: 3938,
               label: 'Blastz using bosTau8 as reference and mm10 as query',
@@ -452,6 +481,7 @@ export const treeData = {
           children: [
             {
               name: 'danRer11tolepOcu1',
+              source: 'danRer11',
               comparison: 'danRer11tolepOcu1',
               value: 4938,
               label: 'Ensembl lastz using zebrafish danRer11 as reference and lepOcu1 as query',
@@ -481,6 +511,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10todanRer7',
+                  source: 'mm10',
                   comparison: 'mm10todanRer7',
                   value: 338,
                   label: 'Query zebrafish danRer7 to mm10 blastz',
@@ -494,6 +525,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10tohg19',
+                  source: 'mm10',
                   comparison: 'mm10tohg19',
                   value: 338,
                   label: 'Query human hg19 to mm10 blastz',
@@ -502,6 +534,7 @@ export const treeData = {
                   url: 'https://vizhub.wustl.edu/public/mm10/weaver/mm10_hg19_axt.gz'
                 }, {
                   name: 'mm10tohg38',
+                  source: 'mm10',
                   comparison: 'mm10tohg38',
                   value: 338,
                   label: 'Query human hg38 to mm10 blastz',
@@ -515,6 +548,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10torheMac3',
+                  source: 'mm10',
                   comparison: 'mm10torheMac3',
                   value: 338,
                   label: 'Query rhesus macaque rheMac3 to mm10 blastz',
@@ -528,6 +562,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10torn6',
+                  source: 'mm10',
                   comparison: 'mm10torn6',
                   value: 338,
                   label: 'Query rat rn6 to mm10 blastz',
@@ -541,6 +576,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10tobosTau8',
+                  source: 'mm10',
                   comparison: 'mm10tobosTau8',
                   value: 338,
                   label: 'Query cow bosTau8 to mm10 blastz',
@@ -558,6 +594,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10tocalJac3',
+                  source: 'mm10',
                   comparison: 'mm10tocalJac3',
                   value: 338,
                   label: 'Query marmoset calJac3 to mm10 blastz',
@@ -575,6 +612,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10todanRer10',
+                  source: 'mm10',
                   comparison: 'mm10todanRer10',
                   value: 338,
                   label: 'Query zebrafish danRer10 to mm10 blastz',
@@ -587,6 +625,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'mm10todanRer11',
+                  source: 'mm10',
                   comparison: 'mm10todanRer11',
                   value: 338,
                   label: 'Query zebrafish danRer11 to mm10 blastz',
@@ -604,6 +643,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10togalGal5',
+                  source: 'mm10',
                   comparison: 'mm10togalGal5',
                   value: 338,
                   label: 'Query chicken galGal5 to mm10 blastz',
@@ -616,6 +656,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'mm10togalGal6',
+                  source: 'mm10',
                   comparison: 'mm10togalGal6',
                   value: 338,
                   label: 'Query chicken galGal6 to mm10 blastz',
@@ -633,6 +674,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10togorGor3',
+                  source: 'mm10',
                   comparison: 'mm10togorGor3',
                   value: 338,
                   label: 'Query gorilla gorGor3 to mm10 blastz',
@@ -650,6 +692,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10topanTro4',
+                  source: 'mm10',
                   comparison: 'mm10topanTro4',
                   value: 338,
                   label: 'Query chimp panTro4 to mm10 blastz',
@@ -662,6 +705,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'mm10topanTro5',
+                  source: 'mm10',
                   comparison: 'mm10topanTro5',
                   value: 338,
                   label: 'Query chimp panTro5 to mm10 blastz',
@@ -674,6 +718,7 @@ export const treeData = {
                   }
                 }, {
                   name: 'mm10topanTro6',
+                  source: 'mm10',
                   comparison: 'mm10topanTro6',
                   value: 338,
                   label: 'Query chimp panTro6 to mm10 blastz',
@@ -691,6 +736,7 @@ export const treeData = {
               children: [
                 {
                   name: 'mm10torheMac8',
+                  source: 'mm10',
                   comparison: 'mm10torheMac8',
                   value: 338,
                   label: 'Query rhesus rheMac8 to mm10 blastz',
@@ -710,6 +756,7 @@ export const treeData = {
           children: [
             {
               name: 'mm9tohg19',
+              source: 'mm9',
               comparison: 'mm9tohg19',
               value: 338,
               label: 'Query human hg19 to mm9 blastz',
@@ -718,6 +765,7 @@ export const treeData = {
               url: 'https://vizhub.wustl.edu/public/mm9/weaver/mm9_hg19_axt.gz'
             }, {
               name: 'mm9tocalJac3',
+              source: 'mm9',
               comparison: 'mm9tocalJac3',
               value: 338,
               label: 'Query marmoset calJac3 to mm9 blastz',
@@ -753,6 +801,7 @@ export const treeData = {
           children: [
             {
               name: 'rheMac3tohg19',
+              source: 'rheMac3',
               comparison: 'rheMac3tohg19',
               value: 338,
               label: 'Query human hg19 to rheMac3 blastz',
@@ -782,6 +831,7 @@ export const treeData = {
           children: [
             {
               name: 'panTro4tohg19',
+              source: 'panTro4',
               comparison: 'panTro4tohg19',
               value: 338,
               label: 'Query human hg19 to panTro4 blastz',
@@ -795,6 +845,7 @@ export const treeData = {
           children: [
             {
               name: 'panTro5tohg38',
+              source: 'panTro5',
               comparison: 'panTro5tohg38',
               value: 338,
               label: 'Query human hg38 to panTro5 blastz',
@@ -846,6 +897,7 @@ export const treeData = {
           children: [
             {
               name: 'calJac3tohg19',
+              source: 'calJac3',
               comparison: 'calJac3tohg19',
               value: 338,
               label: 'Blastz using calJac3 as reference and human hg19 as query',
@@ -869,6 +921,7 @@ export const treeData = {
           children: [
             {
               name: 'gorGor3tohg19',
+              source: 'gorGor3',
               comparison: 'gorGor3tohg19',
               value: 338,
               label: 'Blastz using gorGor3 as reference and hg19 as query',
@@ -893,6 +946,7 @@ export const treeData = {
           children: [
             {
               name: 'papAnu2tohg19',
+              source: 'papAnu2',
               comparison: 'papAnu2tohg19',
               value: 338,
               label: 'Query human hg19 to papAnu2 blastz',
