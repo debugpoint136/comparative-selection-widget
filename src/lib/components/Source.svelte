@@ -43,8 +43,10 @@
             <RadioTile
               on:change={() => updateValue(source.name, index)}
               disabled={!source.children.length}
-              value={source.name}>{source.name}</RadioTile
-            >
+              value={source.name}
+              checked={source.name === sourceGenome ? true : false}
+              >{source.name}
+            </RadioTile>
           {/each}
         </TileGroup>
       </AccordionItem>
