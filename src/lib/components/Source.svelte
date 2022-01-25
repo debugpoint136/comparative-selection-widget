@@ -11,9 +11,11 @@
   const dispatch = createEventDispatcher();
 
   let sourceGenome = '';
+  let sourceOrganism = '';
 
-  function updateValue(value, index) {
+  function updateValue(value, organism, index) {
     sourceGenome = value;
+    sourceOrganism = organism;
     let sourceObject = treeData.children[index].children.filter(
       (d) => d.name === value
     );
@@ -34,14 +36,14 @@
   <Accordion align="start">
     {#each treeData.children as item, index}
       <AccordionItem
-        open={false}
+        open={sourceOrganism === item.name ? true : false}
         disabled={!item.children.length}
         title={item.name}
       >
         <TileGroup legend="Pick Source genome">
           {#each item.children as source}
             <RadioTile
-              on:change={() => updateValue(source.name, index)}
+              on:change={() => updateValue(source.name, item.name, index)}
               disabled={!source.children.length}
               value={source.name}
               checked={source.name === sourceGenome ? true : false}
