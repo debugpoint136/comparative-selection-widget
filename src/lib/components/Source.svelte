@@ -30,23 +30,24 @@
   </h1>
   <div class="h-1 w-32 bg-indigo-500 rounded" />
 </div>
-
-<Accordion align="start">
-  {#each treeData.children as item, index}
-    <AccordionItem
-      open={false}
-      disabled={!item.children.length}
-      title={item.name}
-    >
-      <TileGroup legend="Pick Source genome">
-        {#each item.children as source}
-          <RadioTile
-            on:change={() => updateValue(source.name, index)}
-            disabled={!source.children.length}
-            value={source.name}>{source.name}</RadioTile
-          >
-        {/each}
-      </TileGroup>
-    </AccordionItem>
-  {/each}
-</Accordion>
+{#key sourceGenome}
+  <Accordion align="start">
+    {#each treeData.children as item, index}
+      <AccordionItem
+        open={false}
+        disabled={!item.children.length}
+        title={item.name}
+      >
+        <TileGroup legend="Pick Source genome">
+          {#each item.children as source}
+            <RadioTile
+              on:change={() => updateValue(source.name, index)}
+              disabled={!source.children.length}
+              value={source.name}>{source.name}</RadioTile
+            >
+          {/each}
+        </TileGroup>
+      </AccordionItem>
+    {/each}
+  </Accordion>
+{/key}
