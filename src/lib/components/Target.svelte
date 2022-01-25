@@ -16,7 +16,7 @@
 {#if sourceGenome}
   <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-14 text-gray-600">
-      Target genome :
+      Secondary genome :
     </h1>
 
     <div class="h-1 w-32 mb-2 bg-orange-500 rounded" />

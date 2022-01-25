@@ -25,7 +25,7 @@
 
 <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
   <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-600">
-    Source genome :
+    Reference genome :
   </h1>
   <h1 class="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">
     {sourceGenome}
