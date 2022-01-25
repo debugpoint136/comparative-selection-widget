@@ -1,3 +1,5 @@
+import {children} from "svelte/internal";
+
 export const treeData = {
   name: 'genomes',
   children: [
@@ -453,17 +455,22 @@ export const treeData = {
           name: 'bosTau8',
           children: [
             {
-              name: 'bosTau8tomm10',
-              source: 'bosTau8',
-              comparison: 'bosTau8tomm10',
-              value: 3938,
-              label: 'Blastz using bosTau8 as reference and mm10 as query',
-              querygenome: 'mm10',
-              metadata: {
-                name: 'mm10'
-              },
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/bosTau8/weaver/bosTau8_mm10_axt.gz'
+              name: 'Mouse',
+              children: [
+                {
+                  name: 'bosTau8tomm10',
+                  source: 'bosTau8',
+                  comparison: 'bosTau8tomm10',
+                  value: 3938,
+                  label: 'Blastz using bosTau8 as reference and mm10 as query',
+                  querygenome: 'mm10',
+                  metadata: {
+                    name: 'mm10'
+                  },
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/bosTau8/weaver/bosTau8_mm10_axt.gz'
+                }
+              ]
             }
           ]
         }
@@ -480,14 +487,19 @@ export const treeData = {
           name: 'danRer11',
           children: [
             {
-              name: 'danRer11tolepOcu1',
-              source: 'danRer11',
-              comparison: 'danRer11tolepOcu1',
-              value: 4938,
-              label: 'Ensembl lastz using zebrafish danRer11 as reference and lepOcu1 as query',
-              querygenome: 'lepOcu1',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/danRer11/weaver/danRer11.lepocu1.gz'
+              name: 'Spotted gar',
+              children: [
+                {
+                  name: 'danRer11tolepOcu1',
+                  source: 'danRer11',
+                  comparison: 'danRer11tolepOcu1',
+                  value: 4938,
+                  label: 'Ensembl lastz using zebrafish danRer11 as reference and lepOcu1 as query',
+                  querygenome: 'lepOcu1',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/danRer11/weaver/danRer11.lepocu1.gz'
+                }
+              ]
             }
           ]
         }, {
@@ -755,28 +767,39 @@ export const treeData = {
           name: 'mm9',
           children: [
             {
-              name: 'mm9tohg19',
-              source: 'mm9',
-              comparison: 'mm9tohg19',
-              value: 338,
-              label: 'Query human hg19 to mm9 blastz',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/mm9/weaver/mm9_hg19_axt.gz'
+              name: "Human",
+              children: [
+                {
+                  name: 'mm9tohg19',
+                  source: 'mm9',
+                  comparison: 'mm9tohg19',
+                  value: 338,
+                  label: 'Query human hg19 to mm9 blastz',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/mm9/weaver/mm9_hg19_axt.gz'
+                }
+              ]
             }, {
-              name: 'mm9tocalJac3',
-              source: 'mm9',
-              comparison: 'mm9tocalJac3',
-              value: 338,
-              label: 'Query marmoset calJac3 to mm9 blastz',
-              querygenome: 'calJac3',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/mm9/weaver/mm9-calJac3.gz',
-              details: {
-                source: 'UCSC Genome Browser',
-                'download url': 'https://hgdownload.soe.ucsc.edu/goldenPath/mm9/vsCalJac3/axtNet/'
-              }
+              name: "Marmoset",
+              children: [
+                {
+                  name: 'mm9tocalJac3',
+                  source: 'mm9',
+                  comparison: 'mm9tocalJac3',
+                  value: 338,
+                  label: 'Query marmoset calJac3 to mm9 blastz',
+                  querygenome: 'calJac3',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/mm9/weaver/mm9-calJac3.gz',
+                  details: {
+                    source: 'UCSC Genome Browser',
+                    'download url': 'https://hgdownload.soe.ucsc.edu/goldenPath/mm9/vsCalJac3/axtNet/'
+                  }
+                }
+              ]
             }
+
           ]
         }
       ],
@@ -800,14 +823,19 @@ export const treeData = {
           name: 'rheMac3',
           children: [
             {
-              name: 'rheMac3tohg19',
-              source: 'rheMac3',
-              comparison: 'rheMac3tohg19',
-              value: 338,
-              label: 'Query human hg19 to rheMac3 blastz',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/rheMac3/rheMac3_hg19.gz'
+              name: 'Human',
+              children: [
+                {
+                  name: 'rheMac3tohg19',
+                  source: 'rheMac3',
+                  comparison: 'rheMac3tohg19',
+                  value: 338,
+                  label: 'Query human hg19 to rheMac3 blastz',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/rheMac3/rheMac3_hg19.gz'
+                }
+              ]
             }
           ]
         }
@@ -830,32 +858,42 @@ export const treeData = {
           name: 'panTro4',
           children: [
             {
-              name: 'panTro4tohg19',
-              source: 'panTro4',
-              comparison: 'panTro4tohg19',
-              value: 338,
-              label: 'Query human hg19 to panTro4 blastz',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/panTro4/panTro4_hg19.gz'
+              name: 'Human',
+              children: [
+                {
+                  name: 'panTro4tohg19',
+                  source: 'panTro4',
+                  comparison: 'panTro4tohg19',
+                  value: 338,
+                  label: 'Query human hg19 to panTro4 blastz',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/panTro4/panTro4_hg19.gz'
+                }
+              ]
             }
           ]
         }, {
           name: 'panTro5',
           children: [
             {
-              name: 'panTro5tohg38',
-              source: 'panTro5',
-              comparison: 'panTro5tohg38',
-              value: 338,
-              label: 'Query human hg38 to panTro5 blastz',
-              querygenome: 'hg38',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/panTro5/weaver/panTro5_hg38_axt.gz',
-              details: {
-                source: 'UCSC Genome Browser',
-                'download url': 'https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/vsHg38/'
-              }
+              name: 'Human',
+              children: [
+                {
+                  name: 'panTro5tohg38',
+                  source: 'panTro5',
+                  comparison: 'panTro5tohg38',
+                  value: 338,
+                  label: 'Query human hg38 to panTro5 blastz',
+                  querygenome: 'hg38',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/panTro5/weaver/panTro5_hg38_axt.gz',
+                  details: {
+                    source: 'UCSC Genome Browser',
+                    'download url': 'https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/vsHg38/'
+                  }
+                }
+              ]
             }
           ]
         }
@@ -896,14 +934,19 @@ export const treeData = {
           name: 'calJac3',
           children: [
             {
-              name: 'calJac3tohg19',
-              source: 'calJac3',
-              comparison: 'calJac3tohg19',
-              value: 338,
-              label: 'Blastz using calJac3 as reference and human hg19 as query',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/calJac3/calJac3_hg19.gz'
+              name: 'Human',
+              children: [
+                {
+                  name: 'calJac3tohg19',
+                  source: 'calJac3',
+                  comparison: 'calJac3tohg19',
+                  value: 338,
+                  label: 'Blastz using calJac3 as reference and human hg19 as query',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/calJac3/calJac3_hg19.gz'
+                }
+              ]
             }
           ]
         }
@@ -920,14 +963,19 @@ export const treeData = {
           name: 'gorGor3',
           children: [
             {
-              name: 'gorGor3tohg19',
-              source: 'gorGor3',
-              comparison: 'gorGor3tohg19',
-              value: 338,
-              label: 'Blastz using gorGor3 as reference and hg19 as query',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/gorGor3/gorGor3_hg19.gz'
+              name: 'Human',
+              children: [
+                {
+                  name: 'gorGor3tohg19',
+                  source: 'gorGor3',
+                  comparison: 'gorGor3tohg19',
+                  value: 338,
+                  label: 'Blastz using gorGor3 as reference and hg19 as query',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/gorGor3/gorGor3_hg19.gz'
+                }
+              ]
             }
           ]
         }, {
@@ -945,14 +993,19 @@ export const treeData = {
           name: 'papAnu2',
           children: [
             {
-              name: 'papAnu2tohg19',
-              source: 'papAnu2',
-              comparison: 'papAnu2tohg19',
-              value: 338,
-              label: 'Query human hg19 to papAnu2 blastz',
-              querygenome: 'hg19',
-              filetype: 'genomealign',
-              url: 'https://vizhub.wustl.edu/public/papAnu2/papAnu2_hg19.gz'
+              name: 'Human',
+              children: [
+                {
+                  name: 'papAnu2tohg19',
+                  source: 'papAnu2',
+                  comparison: 'papAnu2tohg19',
+                  value: 338,
+                  label: 'Query human hg19 to papAnu2 blastz',
+                  querygenome: 'hg19',
+                  filetype: 'genomealign',
+                  url: 'https://vizhub.wustl.edu/public/papAnu2/papAnu2_hg19.gz'
+                }
+              ]
             }
           ]
         }

@@ -17,6 +17,7 @@
   "type": "module",
   "dependencies": {
     "axios": "^0.24.0",
+    "carbon-components-svelte": "^0.55.0",
     "d3": "^7.3.0",
     "uuid": "^8.3.2"
   }
