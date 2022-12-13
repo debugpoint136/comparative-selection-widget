@@ -128,7 +128,7 @@
                             ]
                         },
                         {
-                            "name": "chimp",
+                            "name": "chimpanzee",
                             "children":
                             [
                                 {
@@ -214,14 +214,14 @@
                                     "source": "hg38",
                                     "comparison": "t2t-chm13tohg38",
                                     "label": "hg38 - chm13 minimap2",
-                                    "querygenome": "t2t-chm13-v1.1",
+                                    "querygenome": "t2t-chm13",
                                     "filetype": "genomealign",
-                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/querychm13tohg38.align.gz"
+                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/chm13v2.hg38.align.gz"
                                 }
                             ]
                         },
                         {
-                            "name": "chimp",
+                            "name": "chimpanzee",
                             "children":
                             [
                                 {
@@ -403,7 +403,7 @@
                     ]
                 },
                 {
-                    "name": "t2t-chm13-v1.1",
+                    "name": "t2t-chm13",
                     "children":
                     [
                         {
@@ -412,12 +412,12 @@
                             [
                                 {
                                     "name": "hg38tochm13",
-                                    "source": "t2t-chm13-v1.1",
+                                    "source": "t2t-chm13-v2",
                                     "comparison": "hg38tochm13",
-                                    "label": "chm13v1.1 - hg38 minimap2",
+                                    "label": "chm13v2 - hg38 minimap2",
                                     "querygenome": "hg38",
                                     "filetype": "genomealign",
-                                    "url": "https://vizhub.wustl.edu/public/t2t-chm13-v1.1/weaver/queryhg38tochm13.align.gz"
+                                    "url": "https://vizhub.wustl.edu/public/t2t-chm13-v2.0/weaver/hg38.chm13.align.gz"
                                 }
                             ]
                         }
@@ -428,13 +428,13 @@
             [
                 "hg19",
                 "hg38",
-                "t2t-chm13-v1.1"
+                "t2t-chm13"
             ],
             "thumbnail": "https://epigenomegateway.wustl.edu/browser/images/Human.png"
         },
         {
             "id": 2,
-            "name": "chimp",
+            "name": "chimpanzee",
             "children":
             [
                 {
