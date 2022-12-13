@@ -214,7 +214,7 @@
                                     "source": "hg38",
                                     "comparison": "t2t-chm13tohg38",
                                     "label": "hg38 - chm13 minimap2",
-                                    "querygenome": "t2t-chm13",
+                                    "querygenome": "t2t-chm13-v2.0",
                                     "filetype": "genomealign",
                                     "url": "https://vizhub.wustl.edu/public/hg38/weaver/chm13v2.hg38.align.gz"
                                 }
@@ -428,7 +428,7 @@
             [
                 "hg19",
                 "hg38",
-                "t2t-chm13"
+                "t2t-chm13-v2.0"
             ],
             "thumbnail": "https://epigenomegateway.wustl.edu/browser/images/Human.png"
         },
