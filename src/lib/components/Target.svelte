@@ -15,11 +15,12 @@
 
 {#if sourceGenome}
   <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-14 text-gray-600">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-600">
       Secondary genome :
     </h1>
+    <small> > indicates the recommended assembly of that species</small>
 
-    <div class="h-1 w-32 mb-2 bg-orange-500 rounded" />
+    <div class="h-1 w-32 mb-2 bg-orange-500 mt-11 rounded" />
   </div>
   {#each sourceGenome.children as item}
     <div class="flex justify-between">

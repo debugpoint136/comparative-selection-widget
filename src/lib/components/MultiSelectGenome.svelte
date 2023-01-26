@@ -6,7 +6,7 @@
     let res = children.map((d, index) => {
       let tmp = d;
       d.id = d.name;
-      d.text = d.querygenome;
+      d.text = d.recommended?"> " + d.querygenome:d.querygenome;
 
       return tmp;
     });

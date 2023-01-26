@@ -27,6 +27,7 @@
   <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-600">
     Reference genome :
   </h1>
+  <small> > indicates the recommended assembly of that species</small>
   <h1 class="sm:text-3xl text-2xl font-bold title-font mb-2 text-gray-900">
     {sourceGenome}
   </h1>
@@ -47,7 +48,7 @@
               disabled={!source.children.length}
               value={source.name}
               checked={source.name === sourceGenome ? true : false}
-              >{source.name}
+              >{source.recommended?"> " + source.name:source.name}
             </RadioTile>
           {/each}
         </TileGroup>

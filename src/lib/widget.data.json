@@ -25,6 +25,7 @@
                                 },
                                 {
                                     "name": "hg19tomm10",
+                                    "recommended": true,
                                     "source": "hg19",
                                     "comparison": "hg19tomm10",
                                     "label": "Query mouse mm10 to hg19 blastz",
@@ -49,6 +50,7 @@
                                 },
                                 {
                                     "name": "hg19torn6",
+                                    "recommended": true,
                                     "source": "hg19",
                                     "comparison": "hg19torn6",
                                     "label": "Query rat rn6 to hg19 blastz",
@@ -88,6 +90,7 @@
                                 },
                                 {
                                     "name": "hg19todanRer10",
+                                    "recommended": true,
                                     "source": "hg19",
                                     "comparison": "hg19todanRer10",
                                     "label": "Query zebrafish danRer10 to hg19 blastz",
@@ -151,6 +154,7 @@
                                 },
                                 {
                                     "name": "hg19topanTro6",
+                                    "recommended": true,
                                     "source": "hg19",
                                     "comparison": "hg19topanTro6",
                                     "label": "Query chimp panTro6 to hg19 blastz",
@@ -179,6 +183,7 @@
                 },
                 {
                     "name": "hg38",
+                    "recommended": true,
                     "children":
                     [
                         {
@@ -187,6 +192,7 @@
                             [
                                 {
                                     "name": "hg38tomm10",
+                                    "recommended": true,
                                     "source": "hg38",
                                     "comparison": "hg38tomm10",
                                     "label": "Query mouse mm10 to hg38 blastz",
@@ -225,24 +231,6 @@
                             "children":
                             [
                                 {
-                                    "name": "panTro5tohg38",
-                                    "source": "hg38",
-                                    "comparison": "panTro5tohg38",
-                                    "label": "Chimpanzee panTro5 to hg38 blastz",
-                                    "querygenome": "panTro5",
-                                    "filetype": "genomealign",
-                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/hg38_panTro5_axt.gz"
-                                },
-                                {
-                                    "name": "hg38topanTro6",
-                                    "source": "hg38",
-                                    "comparison": "hg38topanTro6",
-                                    "label": "Query chimpanzee panTro6 to hg38 blastz",
-                                    "querygenome": "panTro6",
-                                    "filetype": "genomealign",
-                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/hg38TopanTro6.gz"
-                                },
-                                {
                                     "name": "hg38topanTro4",
                                     "source": "hg38",
                                     "comparison": "hg38topanTro4",
@@ -250,6 +238,25 @@
                                     "querygenome": "panTro4",
                                     "filetype": "genomealign",
                                     "url": "https://vizhub.wustl.edu/public/hg38/weaver/hg38-panTro4.gz"
+                                },
+                                {
+                                    "name": "hg38topanTro5",
+                                    "source": "hg38",
+                                    "comparison": "hg38topanTro5",
+                                    "label": "Chimpanzee panTro5 to hg38 blastz",
+                                    "querygenome": "panTro5",
+                                    "filetype": "genomealign",
+                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/hg38_panTro5_axt.gz"
+                                },
+                                {
+                                    "name": "hg38topanTro6",
+                                    "recommended": true,
+                                    "source": "hg38",
+                                    "comparison": "hg38topanTro6",
+                                    "label": "Query chimpanzee panTro6 to hg38 blastz",
+                                    "querygenome": "panTro6",
+                                    "filetype": "genomealign",
+                                    "url": "https://vizhub.wustl.edu/public/hg38/weaver/hg38TopanTro6.gz"
                                 }
                             ]
                         },
@@ -277,6 +284,7 @@
                                 },
                                 {
                                     "name": "hg38torheMac10",
+                                    "recommended": true,
                                     "source": "hg38",
                                     "comparison": "hg38torheMac10",
                                     "label": "Query rhesus Macaque rheMac10 to hg38 blastz",
@@ -331,6 +339,7 @@
                                 },
                                 {
                                     "name": "hg38tocalJac4",
+                                    "recommended": true,
                                     "source": "hg38",
                                     "comparison": "hg38tocalJac4",
                                     "label": "Query marmoset calJac4 to hg38 blastz",
@@ -460,6 +469,7 @@
                 },
                 {
                     "name": "panTro5",
+                    "recommended": true,
                     "children":
                     [
                         {
@@ -665,6 +675,7 @@
             [
                 {
                     "name": "mm10",
+                    "recommended": true,
                     "children":
                     [
                         {
@@ -691,6 +702,7 @@
                                 },
                                 {
                                     "name": "mm10todanRer11",
+                                    "recommended": true,
                                     "source": "mm10",
                                     "comparison": "mm10todanRer11",
                                     "label": "Query zebrafish danRer11 to mm10 blastz",
@@ -715,6 +727,7 @@
                                 },
                                 {
                                     "name": "mm10tohg38",
+                                    "recommended": true,
                                     "source": "mm10",
                                     "comparison": "mm10tohg38",
                                     "label": "Query human hg38 to mm10 blastz",
@@ -739,6 +752,7 @@
                                 },
                                 {
                                     "name": "mm10torheMac8",
+                                    "recommended": true,
                                     "source": "mm10",
                                     "comparison": "mm10torheMac8",
                                     "label": "Query rhesus rheMac8 to mm10 blastz",
@@ -808,6 +822,7 @@
                                 },
                                 {
                                     "name": "mm10togalGal6",
+                                    "recommended": true,
                                     "source": "mm10",
                                     "comparison": "mm10togalGal6",
                                     "label": "Query chicken galGal6 to mm10 blastz",
@@ -856,6 +871,7 @@
                                 },
                                 {
                                     "name": "mm10topanTro6",
+                                    "recommended": true,
                                     "source": "mm10",
                                     "comparison": "mm10topanTro6",
                                     "label": "Query chimp panTro6 to mm10 blastz",
